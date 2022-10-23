@@ -1,0 +1,37 @@
+body{
+  margin:0;
+  background:#F5F5F5;
+  max-width:1920px;
+  overflow-x: hidden;
+  position: relative;
+}
+body::-webkit-scrollbar {
+  width: 10px;               /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: #FBFBFB;        /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #C46508;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 2px solid #ffffff;  /* creates padding around scroll thumb */
+}
+
+@font-face {
+  font-family: "Poppins-Semibold";
+  src: local("Poppins-Semibold"),
+   url("./fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  }
+@font-face {
+  font-family: "ProductSansBold";
+  src: local("ProductSansBold"),
+   url("./fonts/ProductSansBold.ttf") format("truetype");
+  font-weight: normal;
+  }
+@font-face {
+  font-family: "ProductSansRegular";
+  src: local("ProductSansRegular"),
+   url("./fonts/ProductSansRegular.ttf") format("truetype");
+  font-weight: normal;
+  }
